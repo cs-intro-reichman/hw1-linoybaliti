@@ -7,6 +7,7 @@ int lim = Integer.parseInt(args[0]);
 int a = (int) (Math.random() * lim) + 1;
 int b = (int) (Math.random() * lim) + 1;
 int c = (int) (Math.random() * lim) + 1;
+System.out.println( a + " " + b + " " + c);
 
 int temp = Math.max(a,b);
 int Max = Math.max(temp,c);
