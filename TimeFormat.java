@@ -16,7 +16,7 @@ public class TimeFormat {
 		}
 		else // PM
 		{
-			System.out.print(hours - 12 + ":" + minutes + "PM");
+			System.out.print(hours - 12 + ": :" + minutes + "PM");
 		}
 		
 
