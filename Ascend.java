@@ -13,8 +13,8 @@ int temp = Math.max(a,b);
 int Max = Math.max(temp,c);
 temp = Math.min(a,b);
 int Min = Math.min(temp,c);
-int Mid = ( a + b + c ) - Min - Max;
-System.out.println( Min + " " + Mid + " " + Max);
+int Mid = ( a+b+c)- Min-Max;
+System.out.println(Min + " " + Mid + " " + Max);
 
 	}
 }
